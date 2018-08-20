@@ -1,0 +1,52 @@
+section{
+		margin-left: 230px;
+		padding: 15px;
+	}
+	.pc{
+		text-decoration: none;
+		color: red;
+	}
+	.subtitle{
+		color:#5E678B;
+	}
+	.content h2{
+		font-size: 1.4em;
+		width: 100%;
+		background: #7bc0f4;
+		margin-top: 15px;
+		padding: 10px;
+		border-left: 5px solid #146BBB;
+	}
+
+	.content h3{
+		margin-left: 5px;
+		width: 100%;
+		padding: 10px;
+		background-color: #f5bdb3;
+		border-left: 4px solid #ed4d1e;
+	}
+	.pragraph1,.pragraph2{
+		font-size: 16px;
+		text-indent: 50px;
+		padding:5px 0;
+	}
+	.m-container{
+		padding: 10px;
+		width: 100%;
+	
+	}
+
+	.m-container .img{
+		display: inline-block;
+		margin-top:20px;
+		
+	
+	}
+	.m-container .img p{
+		width:200px;
+	}
+
+	pre{
+		font-size: 16px;
+		font-family: "微软雅黑"
+	}

@@ -1,0 +1,272 @@
+.m-header {
+  padding: 5px;
+  background-color: #fff;
+  font-size: 18px;
+}
+.center {
+  width: 1000px;
+  margin: 0 auto;
+}
+.m-header li {
+  margin-left: 15px;
+}
+.m-header span {
+  color: #333;
+}
+body {
+  position: relative;
+}
+.m-login .cover {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ccc;
+  opacity: 0.6;
+}
+.m-login .angular {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -80%);
+  -ms-transform: translate(-50%, -80%);
+  transform: translate(-50%, -80%);
+  z-index: 6;
+  width: 300px;
+  height: 220px;
+  background: #fff;
+  padding: 35px 30px;
+}
+.m-login .close {
+  float: right;
+  margin-top: -35px;
+  margin-right: -25px;
+  width: 25px;
+  height: 25px;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.m-login .close .biasl {
+  left: 0;
+  top: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 1px;
+  height: 25px;
+  background: #ccc;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.m-login .close .biasr {
+  left: 0;
+  top: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 1px;
+  height: 25px;
+  background: #ccc;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.m-login span {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  width: 150px;
+  text-align: center;
+}
+.hover {
+  border-bottom: 5px solid #08d9fb;
+}
+.m-login .login-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -40%);
+  -ms-transform: translate(-50%, -40%);
+  transform: translate(-50%, -40%);
+}
+.m-login .login-text input {
+  margin-top: 20px;
+  padding: 5px 5px 5px 20px;
+  font-size: 18px;
+}
+.m-login button {
+  margin-top: 22px;
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: justify;
+  text-align: center;
+  background: #08d9fb;
+  color: #fff;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+.m-login .register {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -30%);
+  -ms-transform: translate(-50%, -30%);
+  transform: translate(-50%, -30%);
+}
+.m-login .register input {
+  padding: 5px 5px 5px 20px;
+  font-size: 18px;
+}
+.m-login .register span {
+  color: red;
+  font-size: 12px;
+}
+.m-login .register button {
+  margin-top: 5px;
+}
+.m-nav {
+  height: 60px;
+  background: #119ac2;
+  font-family: "隶书";
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: bold;
+}
+.m-nav span {
+  font-size: 50px;
+  line-height: 60px;
+  color: #fff;
+}
+.m-nav li {
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 60px;
+}
+.m-nav li:hover {
+  display: block;
+  background: blue;
+}
+.m-nav a {
+  color: #fff;
+}
+.m-nav a:hover {
+  color: #fff;
+}
+.m-nav:after {
+  content: "";
+  clear: both;
+  height: 0px;
+  display: block;
+  visibility: hidden;
+}
+section {
+  margin-top: 10px;
+  height: 500px;
+  width: 100%;
+  background: linear-gradient(#ffffff, #119ac2, #ffffff);
+}
+footer {
+  margin-top: 10px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background: #119ac2;
+  width: 100%;
+  height: 200px;
+}
+.m-banner {
+  position: relative;
+  margin: 0 auto;
+  height: 400px;
+  width: 700px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+}
+.m-banner ul {
+  position: absolute;
+  left: 0px;
+  width: 3500px;
+}
+.m-banner img {
+  width: 700px;
+  height: 400px;
+}
+.prve,
+.next {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 50px;
+  margin: 10px;
+  cursor: pointer;
+  color: gray;
+}
+.m-banner .next {
+  right: 0;
+}
+.m-banner .prve:hover {
+  background: #ccc;
+  opacity: 0.5;
+}
+.m-banner .next:hover {
+  background: #ccc;
+  opacity: 0.5;
+}
+.index {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+  z-index: 2;
+  margin-left: -10px;
+  height: 20px;
+}
+.index:hover {
+  background-color: #ccc;
+  opacity: 0.5;
+}
+.index span {
+  float: left;
+  margin: 0 5px;
+  width: 20px;
+  height: 18px;
+  border: 1px solid gray;
+  border-radius: 50%;
+}
+.active {
+  background-color: #f68224;
+}
+.m-list {
+  margin-top: 4px;
+  margin: 5px auto 0 auto;
+  width: 700px;
+  font-size: 14px;
+}
+.m-list span {
+  font-weight: bold;
+}
+.m-list li {
+  margin-top: 3px;
+  border-bottom: 1px dotted black;
+  padding: 0 5px;
+}
+.list2,
+.list3,
+.list4,
+.list5 {
+  margin-left: 15px;
+}

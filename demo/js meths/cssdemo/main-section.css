@@ -1,0 +1,51 @@
+	section{
+			margin-left: 230px;
+			padding: 15px;
+		}
+		.matter{
+			position: relative;
+		}
+		.position1{
+			position: absolute;
+			left: 0;
+			top:0;
+
+		}
+		.author{
+			padding: 10px;
+		}
+		.m-object{
+			width: 210px;
+			font-size: 13px;
+		}
+		.m-object h2{
+			background: #4e546b;
+			color: #eee;
+			padding:4px 5px;
+			font-weight: 400;
+			line-height: 16px;
+		}
+		.m-object .content li{
+			margin-top: 5px;
+			color: #4e546b;
+			padding-left: 5px;
+		}
+		.m-object .content ul{
+			padding-left: 15px;
+		}
+		.m-object .content ul li{
+			margin:0;
+		}
+		.m-object a{
+			color: #4e546b;
+		}
+		.m-object a:hover{
+			color: red;
+			text-decoration: underline;
+		}
+		.position2{
+			position: absolute;
+			top:0;
+			left:213px;
+		}
+	

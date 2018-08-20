@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>周佳杰的官方网站</title>
+	<meta name="keywords" content="javascript,jquery,css,html,笔记，教程，开发，互联网">
+	<meta name="description" content="学习前端，记录前端，发展前端">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/function.css">
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.0.min.js"></script>
+</head>
+<body>
+<!--头部登陆-->
+	<header class="m-header f-cb">
+		<div class="center f-cb">
+			<div class="f-fl">
+				<span>Hello World!</span>
+			</div>
+			<span id="usermessage" class="f-dn f-fr"></span>
+			<ul class="f-cbli" id="unload">
+				<li id="admin" class="f-fr"><a>管理员登陆</a></li>
+				<li id="user" class="f-fr"><a>注册/登陆</a></li>
+			</ul>
+		</div>
+	</header>
+<!--------------------登陆部分---------------------------->
+	<div class="m-login f-dn">
+		<div class="cover"></div>
+		<div class="angular">
+			<div class="close f-prz f-csp">
+				<div class="biasl"></div>
+				<div class="biasr"></div>
+			</div>
+			<div class="f-cb ">
+				<span id="nuser" class="f-fl">注册</span>
+				<span id="ouser" class="f-fr hover">登陆</span>
+			</div>
+			<form class="login-text " method="post">
+					<input id="username" type="text" placeholder="请输入用户名">
+					<input id="password" type="password" placeholder="请输入密码">			
+					<button id="login">登录</button>
+			</form>
+			<form class="register f-dn" >
+				<input type="text" placeholder="请输入用户名">
+				<span class="f-op">您申请的用户名已存在！</span>
+				<input type="password" placeholder="请输入密码">
+				<span class="f-op">请输入8位以上的密码！</span>
+				<input type="password" placeholder="再次确认密码">
+				<span class="f-op">两次密码输入不一致！</span>
+				<button id="register">注册</button>
+			</form>
+		</div>
+	</div>
+	
+<!--导航-->
+	<div class="m-nav">
+		<div class="center">
+			<div class="f-fl">
+				<span>周佳杰的博客</span>
+			</div>
+			<div class="f-cb">
+				<ul class="nav nav-pills">
+					<li class="f-fr"><a href="">javascript</a></li>
+					<li class="f-fr"><a href="">css</a></li>
+					<li class="f-fr"><a href="">html</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<!--中间部分-->
+	<section>
+		<!--轮播图-->
+		<div class="m-banner">
+			<ul class="f-cb" id="img">
+				<li class="f-fl"><a href=""><img src="img/img1.png"></a></li>
+				<li class="f-fl"><a href=""><img src="img/img2.png"></a></li>
+				<li class="f-fl"><a href=""><img src="img/img3.png"></a></li>
+				<li class="f-fl"><a href=""><img src="img/img4.png"></a></li>
+				<li class="f-fl"><a href=""><img src="img/img5.png"></a></li>
+			</ul>
+			<div class="prve"><span>&lt</span></div>
+			<div class="next"><span>&gt</span></div>
+			<div class="index">
+				<span class="active"></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				
+			</div>
+		</div>
+		<!--常用网址列表-->
+		<div class="m-list">
+			<span>常用文档查询</span><br>
+			<div class="f-cb">
+				<ul class="f-fl">
+					<li><a href="">www.w3.org</a></li>
+					<li><a href="">javascript官方规范</a></li>
+					<li><a href="">MDN文档</a></li>
+					<li><a href="">jquery中文手册</a></li>
+				</ul>
+				<ul class="f-fl list2">
+					<li><a href="">www.w3.org</a></li>
+					<li><a href="">javascript官方规范</a></li>
+					<li><a href="">MDN文档</a></li>
+					<li><a href="">jquery中文手册</a></li>
+				</ul>
+				<ul class="f-fl list3">
+					<li><a href="">www.w3.org</a></li>
+					<li><a href="">javascript官方规范</a></li>
+					<li><a href="">MDN文档</a></li>
+					<li><a href="">jquery中文手册</a></li>
+				</ul>
+				<ul class="f-fl list4">
+					<li><a href="">www.w3.org</a></li>
+					<li><a href="">javascript官方规范</a></li>
+					<li><a href="">MDN文档</a></li>
+					<li><a href="">jquery中文手册</a></li>
+				</ul>
+				<ul class="f-fl list5">
+					<li><a href="">www.w3.org</a></li>
+					<li><a href="">javascript官方规范</a></li>
+					<li><a href="">MDN文档</a></li>
+					<li><a href="">jquery中文手册</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div>
+			
+		</div>
+	</footer>
+
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+</html>

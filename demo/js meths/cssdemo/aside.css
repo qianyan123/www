@@ -1,0 +1,126 @@
+		*{
+			padding: 0;
+			margin: 0;
+			}
+		.m-mainmenu{
+			position:fixed;
+			top: 0;
+			left:0;
+			height: 100%;
+			background-color:#2b2f3e;
+			width: 230px;
+			padding: 20px 0; 
+			overflow: scroll;
+		}
+
+
+
+		.m-mainmenu .search{
+			position: relative;
+			margin-left: 10px;
+		}
+
+		.m-mainmenu .search input{
+			padding: 3px 10px 3px 30px;
+			font-size: 14px;
+			border-radius: 5px;
+
+		}
+
+		.m-mainmenu .search::before{
+			position: absolute;
+			top: 5px;
+			left:7px;
+			z-index: 2;
+			content:url(../img/logo.png);
+			display:inline-block;
+			width: 16px;
+			height: 17px;
+			overflow: hidden;
+			background-repeat: no-repeat;
+			background-position: 0 0;
+
+		}
+
+		.m-mainmenu ul{
+			margin-top:10px; 
+		}
+		
+		
+		.m-mainmenu .menu-title,.menu-title1{
+			border-bottom:1px solid #2f3444 ;
+			list-style-type: none;
+			padding:5px 15px;
+			color: #7a7e8a;
+			font-size: 13px;
+			font-weight: 700;
+
+		}
+		.m-mainmenu .menu-title1 .dd{
+			display: inline-block;
+			width: 16px;
+			height: 18px;
+			background-image: url(../img/logo.png);
+			background-repeat: no-repeat;
+			background-position: 0 -19px;
+
+		}
+
+		.m-mainmenu .menu-title i{
+			display: inline-block;
+			width: 16px;
+			height: 18px;
+			background-image: url(../img/logo.png);
+			background-repeat: no-repeat;
+			background-position: 0 -38px;
+		}
+		.m-mainmenu .menu-title span{
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.m-mainmenu .menu-title1 span{
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.m-mainmenu .meths{
+			display: none;
+			margin-top:0px;
+		}
+
+
+		.m-mainmenu .menu-title:hover{
+			background-color:red;
+			cursor: pointer;
+		}
+		
+		.m-mainmenu .menu-title1:hover{
+			background-color:red;
+			cursor: pointer;
+		}
+		
+
+		.m-mainmenu .meths a{
+			text-decoration: none;
+			color: #7a7e8a;
+		}
+
+
+		li{list-style: none;}
+		a{text-decoration: none;}
+
+		.meths a{font-size: 13px;}
+		.meths ul{margin-top:0;}
+		.meths a{padding-left: 15px;}
+		.meths ul a{padding-left: 23px;}
+		.meths a:hover{
+			border-left: 4px solid #5e6271;
+			color:#dedede;
+		}
+
+		.meths .subtitle{color: #7a7e8a;
+			font-size: 13px;
+			padding-left: 15px;
+			
+		}
